@@ -1,1 +1,1 @@
-adding more picture
+adding several image for new web
