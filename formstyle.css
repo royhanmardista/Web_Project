@@ -1,0 +1,68 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+body {
+	color: #666666;
+	background-color: #f9f8f6;
+	background-image: url("images/dark-wood.jpg");
+	background-position: center;
+	font-family: Georgia, Times, serif;
+	line-height: 1.4em;
+	margin: 0px;}
+h1 {
+    background-color: rgb(4, 62, 77);
+    font-family: raleway;
+    font-weight: 800;
+    font-style: oblique;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 25px;
+    margin: 0%;
+    border-bottom: white solid 10px;
+    color: gold;
+}
+
+form {
+    padding: 20px;
+    background-color: aqua;
+    width: 50%;
+    margin: auto;
+    text-align: center;    
+    border-radius: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: green;
+}
+
+form input[type="text"]  {
+    width: 90%;
+    text-align: center;
+    border-radius: 25px;
+    margin: 8px;
+    padding: 3px;
+}
+
+form input[type="radio"] {
+    padding: 10px;
+    margin: 10px;
+}
+
+input[type="submit"] {
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px 20px;
+    font-family: Tahoma, sans-serif;
+    font-weight: 300; 
+    margin-top: 10px;   
+}
+
+input[type="submit"]:hover {
+    color: white;
+    background-color:black;    
+}
+
+form input[type="checkbox"] {
+    padding: 10px;   
+    margin: 10px;
+}

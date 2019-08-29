@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Formulir Pemesanan</title>
+        <link href="formstyle.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div>
+            <h1>Formilir Pemesanan</h1>
+            <form action="terimakasih.html" method="GET">
+                <section class="pw">
+                    <label for="first_name">Nama Depan</label><br>
+                    <input type="text" name="first_name" ><br>                    
+                    <label for="last_name">Nama Akhir</label><br>
+                    <input type="text" name="last_name" >                   
+                </section>
+                <section class="Kurir"><br> 
+                    <span>Pilih Kurir:</span><br>                    
+                    <input type="radio" name="gojek" value="gojek">
+                    <label for="gojek">Gofood</label>
+                    <input type="radio" name="grab" value="grab">
+                    <label for="grab">Grabfood</label>
+                    <input type="radio"name="Cod" value="Cod">
+                    <label for="Cod">Cod</label>
+                    <input type="radio"name="JNE" value="JNE">
+                    <label for="JNE">JNE</label>
+                    <input type="radio"name="Tiki" value="TIKI">
+                    <label for="TIKI">TIKI</label>
+                </section>
+                <section class="sambel"><br>
+                    <span>Pilih Kota Penerima:</span><br>
+                    <select name="Nationality" id="Nationality">
+                        <option value="DKI Jakarta">DKI Jakarta</option>
+                        <option value="Bandung">Bandung</option>
+                        <option value="JABODETABEK">JABODETABEK</option>
+                        <option value="SURABAYA">SURABAYA</option>
+                        <option value="LUAR NEGRI">LUAR NEGRI</option>
+                    </select>
+                </section>
+                <section class="Diskon"><br>
+                    <span>Pilih Pembayaran:</span><br>
+                    <input type="checkbox" name="BNI" >
+                    <label for="bahasa">BNI</label>
+                    <input type="checkbox" name="BRI" >
+                    <label for="english">BRI</label>
+                    <input type="checkbox" name="BCA" >
+                    <label for="Otjer">BCA</label>
+                    <input type="checkbox" name="MANDIRI" >
+                    <label for="OtHer">MANDIRI</label>
+                    <input type="checkbox" name="CICIL" >
+                    <label for="OtHer">CICIL</label>                  
+                </section>
+                <section><br>
+                    <label for="amount">Masukkan Lama Pengiriman</label><br>
+                    <input type="number" name="amount" id="amount" step="1">    
+                </section>
+                <section class="alamat"><br>
+                    <span>Masukan Alamat:</span><br>
+                    <textarea name="alamat" id="bio" cols="50" rows="10"></textarea><br>
+                    <input type="submit" id="submition" value="Pesan">                    
+                </section>
+            </form>
+        </div>
+    </body>
+</html>
